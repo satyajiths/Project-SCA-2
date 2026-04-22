@@ -15,6 +15,6 @@ jobs:
       - name: ZAP Scan
         uses: zaproxy/action-baseline@v0.14.0
         with:
-          target: 'https://google-gruyere.appspot.com/'
+          target: 'http://silverlushquietstars.neverssl.com/online/'
           rules_file_name: '.zap/rules.tsv'
           cmd_options: '-a'
